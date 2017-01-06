@@ -800,6 +800,12 @@ $hardware_info = array(
                      'battery' => '2900 mAh',
                      'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
                      'cpuarch' => 'Arm'),
+    'm8' => array('cpu' => 'Qualcomm® Snapdragon™ 801',
+                     'ram' => '2GB',
+                     'rom' => '16GB/32GB',
+                     'battery' => '2600 mAh',
+                     'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
+                     'cpuarch' => 'Arm'),
 );
 
 foreach ($devices_info as $k => $val) {
